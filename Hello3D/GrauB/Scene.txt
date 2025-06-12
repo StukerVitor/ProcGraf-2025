@@ -1,0 +1,44 @@
+Type GlobalConfig Config
+LightPos 10.0 10.0 10.0
+LightColor 1.0 1.0 1.0
+CameraPos 0.0 5.0 10.0
+CameraFront 0.0 0.0 -1.0
+Fov 45.0
+NearPlane 0.1
+FarPlane 100.0
+Sensitivity 0.1
+CameraSpeed 0.05
+AttConstant 1.0
+AttLinear 0.09
+AttQuadratic 0.032
+FogColor 0.5 0.5 0.5
+FogStart 5.0
+FogEnd 50.0
+End
+Type Mesh Track
+Obj track.obj
+Mtl track.mtl
+Scale 1.0 1.0 1.0
+Position 0.0 0.0 0.0
+Rotation 0.0 1.0 0.0
+Angle 0.0 0.0 0.0
+IncrementalAngle 0
+End
+Type Mesh Carro
+Obj car.obj
+Mtl car.mtl
+Scale 0.5 0.5 0.5
+Position 0.0 0.0 0.0
+Rotation 0.0 1.0 0.0
+Angle 0.0 0.0 0.0
+IncrementalAngle 0
+AnimationFile animation.txt
+End
+Type BSplineCurve Curve1
+ControlPoint -1.88 6.3 0
+ControlPoint -0.08 5.64 0
+ControlPoint 3.26 5.7 0
+ControlPoint -2.58 -0.26 0
+PointsPerSegment 50
+Color 1.0 0.0 0.0 1.0
+End

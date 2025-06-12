@@ -1,0 +1,6 @@
+newmtl CarMaterial
+Ka 0.3 0.3 0.3
+Kd 0.7 0.7 0.7
+Ks 1.0 1.0 1.0
+Ns 64.0
+map_Kd ../../Hello3D/GrauB/car_texture.jpg
